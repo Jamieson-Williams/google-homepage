@@ -9,12 +9,14 @@ html {
     grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
     grid-template-rows: 50px;
     grid-template-areas: "about store . gmail images menu sign-in";
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
-    font-size: 13px;
+    font-size: 12px;
     font-family: arial sans-serif;
 }
 
@@ -24,10 +26,18 @@ a {
     align-self: center;
 }
 
+#about:hover {
+    text-decoration: underline;
+}
+
 #store {
     grid-area: store;
     justify-self: center;
     align-self: center;
+}
+
+#store:hover {
+    text-decoration: underline;    
 }
 
 #gmail {
@@ -36,10 +46,18 @@ a {
     align-self: center;
 }
 
+#gmail:hover {
+    text-decoration: underline;   
+}
+
 #images {
     grid-area: images;
     justify-self: center;
     align-self: center;
+}
+
+#images:hover {
+    text-decoration: underline;   
 }
 
 #menu {
@@ -131,6 +149,10 @@ a {
     grid-template-columns: 100px 1fr;
     grid-template-rows: 50px;
     grid-template-areas: "australia .";
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #e4e4e4;
+    background-color: rgba(0,0,0,0.05);
 }
 
 .footer {
@@ -143,6 +165,9 @@ a {
     grid-template-rows: 40px;
     grid-template-areas: 
     "advertising business how-search-works . privacy terms settings";
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0,0,0,0.05);
 }
 
 #australia{
@@ -157,10 +182,18 @@ a {
     align-self: center;
 }
 
+#advertising:hover {
+    text-decoration: underline;
+}
+
 #business {
     grid-area: business;
     justify-self: center;
     align-self: center;
+}
+
+#business:hover {
+    text-decoration: underline;     
 }
 
 #how-search-works {
@@ -169,20 +202,36 @@ a {
     align-self: center;
 }
 
+#how-search-works:hover {
+    text-decoration: underline;
+}
+    
 #privacy {
     grid-area: privacy;
     justify-self: center;
     align-self: center;
 }
 
+#privacy:hover {
+    text-decoration: underline;
+}
+    
 #terms {
     grid-area: terms;
     justify-self: center;
     align-self: center;
 }
 
+#terms:hover {
+    text-decoration: underline;
+}
+    
 #settings {
     grid-area: settings;
     justify-self: center;
     align-self: center;
+}
+
+#settings:hover {
+    text-decoration: underline;
 }
