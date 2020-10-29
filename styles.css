@@ -52,3 +52,37 @@ a {
     justify-self: center;
     align-self: center;
 }
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 70px 250px;
+    grid-template-areas: 
+    ". logo . "
+    ". search ."
+    ". flexbox .";
+}
+
+#logo {
+    justify-self: center;
+    align-self: end;
+    grid-area: logo;
+}
+
+#search {
+    grid-area: search;
+    height: 30px;
+}
+
+#flexbox {
+    display: flexbox;
+    grid-area: flexbox;
+}
+
+#google-button {
+
+}
+
+#random-search-button {
+
+}
