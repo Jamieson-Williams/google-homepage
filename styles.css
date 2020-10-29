@@ -6,7 +6,7 @@ html {
 /*Navbar Section */
 #navbar {
     display:grid;
-    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 70px;
     grid-template-rows: 50px;
     grid-template-areas: "about store . gmail images menu sign-in";
     padding-left: 15px;
@@ -70,6 +70,14 @@ a {
     grid-area: sign-in;
     justify-self: center;
     align-self: center;
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 28px;
+    border-radius: 2px;
 }
 
 /* Main Section */
